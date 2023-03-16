@@ -99,9 +99,27 @@ footer a {
 }
 
 .icons button {
-  background-color: transparent;
+  width: 60px;
+  height: 60px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 40%;
 }
+
+.icons button:hover {
+  background-color: hsl(300, 69%, 71%);
+  border: 1px solid white;
+}
+
+.content button:hover {
+  background-color: hsl(300, 69%, 71%);
+  box-shadow: 0 0 10px 3px hsl(258, 47%, 33%);
+  color: white;
+}
+
 /* Media Queries */
 
 @media (max-width: 1028px) and (min-width: 769) {
